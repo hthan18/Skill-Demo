@@ -5,6 +5,6 @@ public class SkillDemoTester {
     
     @Test
     public void slope(){
-        assertEquals(2,SkillDemo.slopeCalc(1, 1, 3, 3));
+        assertEquals(1,SkillDemo.slopeCalc(1, 1, 3, 3));
     }
 }
